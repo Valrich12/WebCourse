@@ -40,11 +40,12 @@ body {
 .navegacion-principal {
     flex-direction: column;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 @media	(min-width: 768px) {
     .navegacion-principal{
         flex-direction: row;
+        justify-content: space-between;
     }
 }
 
